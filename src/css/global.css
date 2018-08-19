@@ -1,0 +1,65 @@
+/*自定义全局样式*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    border:none;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+html{
+	background-color: #f8f8f8;
+}
+dl,ul{
+	list-style: none;
+}
+h1{
+	margin: 15px 0; 
+}
+button,input[type="button"],input[type="submit"],input[type="reset"]{
+	width:200px;
+	line-height: 55px;
+}
+/*自定义全局样式*/
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width: 80%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+#examination{
+	text-align: left;
+	padding-bottom: 60px;
+}
+#examination h1{
+	text-align: center;
+}
+#examination-form{
+	padding-left: 10%;
+}
+#examination-form .form-label{
+	font-size: 120%;
+	font-weight: bold;
+}
+.form-radio ul{
+	padding-left: 20px;
+}
+.form-radio ul li{
+	padding: 5px 5px 5px 0;
+}
+.form-input input{
+	padding: 10px 1em 10px .5em;
+	margin: 10px;
+	border: 1px solid #ccc;
+	width:200px;
+}

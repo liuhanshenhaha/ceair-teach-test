@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Ceair logo" src="http://static-cdn.ceair.com/resource/images/public/logo_l.png?v=zh_CN_17759">
+    <Examination/>
+    <!-- <DefinitionList :title="definitionInfos.title" :items="definitionInfos.items" /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Examination from './components/Examination.vue'
+// import DefinitionList from './components/DefinitionList.vue'
 
 export default {
   name: 'app',
+  data: function(){
+    return {
+      // definitionInfos: {
+      //   title: "123",
+      //   items: [1,2,3,4]
+      // }
+    }
+  },
   components: {
-    HelloWorld
+    Examination,
+    // DefinitionList
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url(./css/global.css);
 </style>
